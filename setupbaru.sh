@@ -90,10 +90,14 @@ wget -O /usr/local/bin/stdev-l2tp-get-psk "https://gist.githubusercontent.com/sa
 wget -O /usr/local/bin/stdev-l2tp-add-user "https://gist.githubusercontent.com/satriaajiputra/0ddfe41a9218afb36f09d657cdfe8d91/raw/stdev-l2tp-add-user"
 wget -O /usr/local/bin/stdev-l2tp-remove-user "https://gist.githubusercontent.com/satriaajiputra/0ddfe41a9218afb36f09d657cdfe8d91/raw/stdev-l2tp-remove-user"
 
+#permisiion
+chmod +x /usr/local/bin/stdev-l2tp-get-psk
+chmod +x /usr/local/bin/stdev-l2tp-add-user
+chmod +x /usr/local/bin/stdev-l2tp-remove-user
 
-
+cd
 # Install SlowDNS
-wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
+wget https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
 
 
 
@@ -106,7 +110,7 @@ wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/SLDNS/install-s
 #wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
 
 # install shadowsocks plugin
-wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
+#wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
  
 
 rm -f /root/ssh-vpn.sh
