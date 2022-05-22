@@ -9,11 +9,13 @@ rm nsdomain
 
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
+
 DOMAIN=hideserver.xyz
-SUB_DOMAIN=onichan-${sub}.mantapxsl.my.id
-NS_DOMAIN=slowdns-${subsl}.mantapxsl.my.id
-CF_ID=slinfinity69@gmail.com
-CF_KEY=3dcb550a77cb0a64dacf205243e3ac550f9db
+read -rp "Masukkan Subdomain: " -e sub
+SUB_DOMAIN=${sub}.${DOMAIN}
+NS_DOMAIN=slowdns-${sub}.${DOMAIN}
+CF_ID=dedi4susanto@gmail.com
+CF_KEY=78b3613d3d54457a4fb5ef28b066b3fe66abe
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/subdomain.conf
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
@@ -69,3 +71,5 @@ echo "Host : $SUB_DOMAIN"
 echo $SUB_DOMAIN > /root/subdomain
 echo "Host NS : $NS_DOMAIN"
 echo $NS_DOMAIN > /root/nsdomain
+echo "domain : $DOMAIN"
+echo $DOMAIN > /root/domain
