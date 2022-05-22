@@ -62,7 +62,7 @@ echo "IP=" >> /var/lib/crot/ipvps.conf
 #wget https://${akbarvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 #wget https://${akbarvpnn}/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 
-wget https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/ssh/hide-ssh.sh && chmod +x /hide-ssh.sh && screen -S hide-ssh.sh ./hide-ssh.sh
+wget https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/ssh/hide-ssh.sh && chmod +x hide-ssh.sh && screen -S hide-ssh.sh ./hide-ssh.sh
 
 #install ssr
 #wget https://${akbarvpnnn}/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
