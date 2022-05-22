@@ -69,7 +69,7 @@ wget https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/ssh/hide-
 wget https://${akbarvpnnnn}/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 
 #installwg
-#wget https://${akbarvpnnnnn}/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://${akbarvpnnnnn}/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 
 #install L2TP
 wget https://${akbarvpnnnnnnn}/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
@@ -99,6 +99,8 @@ cd
 # Install SlowDNS
 wget https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
 
+#tambahan package wireguard
+wget -O install-wireguard "https://www.dropbox.com/s/p89ubjpypmk26rv/install-wireguard?dl=1" && chmod +x install-wireguard && ./install-wireguard
 
 
 # Informasi IP Saya dan Semua Port TCP UDP
