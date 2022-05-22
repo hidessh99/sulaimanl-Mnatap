@@ -13,7 +13,7 @@ subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
 DOMAIN=hideserver.xyz
 read -rp "Masukkan Subdomain: " -e sub
 SUB_DOMAIN=${sub}.${DOMAIN}
-NS_DOMAIN=slowdns-${sub}.${DOMAIN}
+NS_DOMAIN=slowdns-${sub}
 CF_ID=dedi4susanto@gmail.com
 CF_KEY=78b3613d3d54457a4fb5ef28b066b3fe66abe
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/subdomain.conf
