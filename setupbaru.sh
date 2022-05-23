@@ -56,7 +56,7 @@ echo "IP=" >> /var/lib/crot/ipvps.conf
 #wget https://${akbarvpn}/slhost.sh && chmod +x slhost.sh && ./slhost.sh
 
 #install xray
-#wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
+wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
 
 #install ssh ovpn
 #wget https://${akbarvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
