@@ -76,7 +76,7 @@ wget https://${akbarvpnnnnnnn}/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec 
 #wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 # Websocket
-#wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
+wget https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/websocket/hide-websocket.sh && chmod +x hide-websocket.sh && ./hide-websocket.sh
 
 # Ohp Server
 wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
